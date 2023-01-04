@@ -10,6 +10,7 @@ export function ForecastsIndex(props) {
           <p>{forecast.average}</p>
           <p>{forecast.body}</p>
           <p>{forecast.image}</p>
+          <button onClick={() => props.onShowForecast(forecast)}>More info</button>
         </div>
       ))}
     </div>
