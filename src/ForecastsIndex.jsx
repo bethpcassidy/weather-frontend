@@ -1,18 +1,26 @@
 export function ForecastsIndex(props) {
   return (
-    <div>
-      <h1>All Forecasts</h1>
-      {props.forecasts.map((forecast) => (
-        <div key={forecast.id}>
-          <h2>{forecast.zipcode}</h2>
-          <p>{forecast.high}</p>
-          <p>{forecast.low}</p>
-          <p>{forecast.average}</p>
-          <p>{forecast.body}</p>
-          <p>{forecast.image}</p>
-          <button onClick={() => props.onShowForecast(forecast)}>More info</button>
-        </div>
-      ))}
+    <div id="forecast-index">
+      <h1 className="text-center">All Forecasts</h1>
+      <br />
+      <div className="posts row text-bg-light mb-3">
+        {props.forecasts.map((forecast) => (
+          <div className="col-4" key={forecast.id}>
+            <br />
+            <h2 className="card-title text-center">
+              {forecast.title}, {forecast.average}
+            </h2>
+            <br />
+            <div className="d-grid gap-2 mx-auto">
+              <button className="btn btn-dark" onClick={() => props.onShowForecast(forecast)}>
+                More
+              </button>
+              <br />
+              <br />
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

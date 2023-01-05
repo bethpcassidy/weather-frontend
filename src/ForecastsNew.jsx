@@ -12,21 +12,6 @@ export function ForecastsNew(props) {
         <div>
           Zipcode: <input name="zipcode" type="text" />
         </div>
-        <div>
-          high: <input name="high" type="text" />
-        </div>
-        <div>
-          low: <input name="low" type="text" />
-        </div>
-        <div>
-          average: <input name="average" type="text" />
-        </div>
-        <div>
-          image: <input name="image" type="text" />
-        </div>
-        <div>
-          body: <input name="body" type="text" />
-        </div>
         <button type="submit">Create Forecast</button>
       </form>
     </div>

@@ -17,22 +17,11 @@ export function ForecastsShow(props) {
       <p>body: {props.forecast.body}</p>
       <form onSubmit={handleSubmit}>
         <div>
-          zipcode: <input defaultValue="props.forecast.zipcode" zipcode="zipcode" type="text" />
+          Title: <input defaultValue={props.forecast.zipcode} name="title" type="text" className="form-control" />
         </div>
-        <div>
-          body: <input defaultValue="props.forecast.body" body="body" type="text" />
-        </div>
-        <div>
-          high: <input defaultValue="props.forecast.high" high="high" type="text" />
-        </div>
-        <div>
-          low: <input defaultValue="props.forecast.low" low="low" type="text" />
-        </div>
-        <div>
-          average: <input defaultValue="props.forecast.average" average="average" type="text" />
-        </div>
-        <button onClick={handleClick}>Destroy forecast</button>
+        <button type="Submit">Update Post</button>
       </form>
+      <button onClick={handleClick}> Delete</button>
     </div>
   );
 }
