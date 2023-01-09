@@ -7,12 +7,16 @@ export function ForecastsNew(props) {
 
   return (
     <div>
-      <h1>New Forecast</h1>
-      <form onSubmit={handleSubmit}>
-        <div>
-          Zipcode: <input name="zipcode" type="text" />
+      <h1 class="row justify-content-center">What's the Weather?</h1>
+      <form class="col-lg-6 offset-lg-3" onSubmit={handleSubmit}>
+        <div class="row justify-content-center">
+          <h4 class="row justify-content-center">Zipcode:</h4> <input name="zipcode" type="text" />
         </div>
-        <button type="submit">Create Forecast</button>
+        <div class="row justify-content-center">
+          <button class="btn btn-secondary" type="submit">
+            Create Forecast
+          </button>
+        </div>
       </form>
     </div>
   );
