@@ -1,3 +1,5 @@
+import "./forecastsshow.css";
+
 export function ForecastsShow(props) {
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -13,8 +15,8 @@ export function ForecastsShow(props) {
     <div>
       <h1>Forecast for {props.forecast.title}</h1>
       <h2>Temperature: {props.forecast.average}°F</h2>
-      <h3>H: {props.forecast.high}</h3>
-      <h3>L: {props.forecast.low}</h3>
+      <h3>H: {props.forecast.high}°F</h3>
+      <h3>L: {props.forecast.low}°F</h3>
       <h3>{props.forecast.body} MPH</h3>
       <div>
         <form class="col-lg-6 offset-lg-3" onSubmit={handleSubmit}>

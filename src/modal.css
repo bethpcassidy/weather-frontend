@@ -5,7 +5,7 @@
   left: 0;
   width:100%;
   height: 100%;
-  background: rgba(51, 91, 137, 0.6);
+  background: rgba(170, 171, 171, 0.6);
   z-index: 1000;
   overflow-y: initial;
   
@@ -13,7 +13,7 @@
 
 .modal-main {
   position: fixed;
-  background: rgb(174, 178, 197);
+  background: rgb(118, 119, 124);
   width: 80%;
   height: 90vh;
   top: 50%;

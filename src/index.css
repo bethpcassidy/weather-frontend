@@ -5,7 +5,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(131, 197, 197, 0.87);
+  color: rgba(180, 214, 214, 0.87);
   background-color: #242424;
 
   font-synthesis: none;
@@ -21,6 +21,10 @@
 
 }
 
+#forecast-index {
+    padding: 2cm;
+    background-color: #adaead;
+}
 
 html {
   scroll-behavior: smooth;
@@ -28,13 +32,13 @@ html {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #97b2e5;
+    color: #c8cbcd;
+    background-color: #3b3a3a;
   }
   a:hover {
-    color: #747bff;
+    color: #a5a5aa;
   }
   button {
-    background-color: #97b2e5;
+    background-color: #b4b8bf;
   }
 }

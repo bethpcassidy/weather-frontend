@@ -74,9 +74,6 @@ export function Home() {
 
   return (
     <div>
-      <Signup />
-      <Login />
-      <LogoutLink />
       <ForecastsNew onCreateForecast={handleCreateForecast} />
       <ForecastsIndex forecasts={forecasts} onShowForecast={handleShowForecast} />
       <Modal show={isForecastsShowVisible} onClose={handleClose}>
