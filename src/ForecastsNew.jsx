@@ -24,7 +24,7 @@ export function ForecastsNew(props) {
           </div>
           <div class="row justify-content-center">
             <button class="btn btn-secondary" type="submit">
-              Create Forecast
+              Find Out
             </button>
           </div>
         </form>

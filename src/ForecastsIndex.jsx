@@ -1,7 +1,7 @@
 export function ForecastsIndex(props) {
   return (
     <div id="forecast-index">
-      <h1 className="text-center">All Forecasts</h1>
+      <h1 className="text-center">Your Forecasts</h1>
       <br />
       <div className="posts row text-bg-light mb-3">
         {props.forecasts.map((forecast) => (

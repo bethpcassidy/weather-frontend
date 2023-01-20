@@ -17,8 +17,8 @@ export function ForecastsShow(props) {
       <h2>Temperature: {props.forecast.average}°F</h2>
       <h3>H: {props.forecast.high}°F</h3>
       <h3>L: {props.forecast.low}°F</h3>
-      <h3>{props.forecast.body} MPH</h3>
-      <div>
+      <h3>{props.forecast.body}</h3>
+      <div id="buttons">
         <form class="col-lg-6 offset-lg-3" onSubmit={handleSubmit}>
           <div class="col-lg-6 offset-lg-3">
             <h4>Zipcode:</h4>{" "}
@@ -26,10 +26,15 @@ export function ForecastsShow(props) {
           </div>
 
           <button class="col-lg-6 offset-lg-3" type="submit">
-            Update Post
+            Update Forecast
           </button>
         </form>
-        <button onClick={handleClick}> Delete</button>
+        <div class="col-lg-6 offset-lg-3">
+          <button class="col-lg-6 offset-lg-3" onClick={handleClick}>
+            {" "}
+            Delete
+          </button>
+        </div>
       </div>
     </div>
   );
