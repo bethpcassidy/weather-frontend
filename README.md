@@ -21,4 +21,6 @@ to startup the server.
 
 For this project to work, you'll need to have the backened running as well, at http://localhost:3000.
 
+To view the designed backened, check it out here and follow the instructions: https://github.com/bethpcassidy/free-weather
+
 The frontend can be viewed at http://localhost:5173
