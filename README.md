@@ -1,5 +1,7 @@
 # EZWeather (frontend)
 
+![](https://media.giphy.com/media/PogjbaHKVy2UQmxsLl/giphy.gif)
+
 EZWeather is a website that gathers and displays weather information for registered users.
 
 It uses geocoded api data to determine the weather forecast at the center of a given zipcode, by processing information for the next 24 hour period based on when the last ping was made.
