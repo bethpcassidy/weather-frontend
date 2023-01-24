@@ -1,6 +1,6 @@
 # EZWeather (frontend)
 
-![](https://media.giphy.com/media/MOL6hO5NZUGJ53MQih/giphy.gif | width=500)
+![](https://media.giphy.com/media/MOL6hO5NZUGJ53MQih/giphy.gif)
 
 EZWeather is a website that gathers and displays weather information for registered users.
 
